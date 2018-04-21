@@ -1,0 +1,29 @@
+{
+  "name": "application-structure",
+  "version": "1.0.0",
+  "description": "package.json for node-related dependencies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www",
+    "start-dev": "nodemon --inspect ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhuang56/application-structure.git"
+  },
+  "author": "Haley Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhuang56/application-structure/issues"
+  },
+  "homepage": "https://github.com/hhuang56/application-structure#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.15"
+  }
+}

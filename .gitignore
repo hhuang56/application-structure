@@ -1,0 +1,5 @@
+# Do not include your node_modules folder in your git repo
+node_modules/
+
+# Do not include your .env file (with your MongoDB username and password information) in your git repo
+.env
